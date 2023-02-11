@@ -1,0 +1,32 @@
+#RewriteEngine On
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+#Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+#Options +Indexes
+
+#<IfModule mod_rewrite.c> 
+#  RewriteEngine on
+
+#  RewriteCond %{REQUEST_URI} !^public
+#  RewriteRule ^(.*)$ frontend/web/$1 [L] 
+#</IfModule>
+
+# Deny accessing below extensions
+#<Files ~ "(.json|.lock|.git)">
+#Order allow,deny
+#Deny from all
+#</Files>
+
+# Deny accessing dot files
+#RewriteRule (^\.|/\.) - [F]
+
+RewriteEngine on
+# If a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Otherwise forward it to index.php
+
+php_value short_open_tag 1
+
+RewriteRule . index.php

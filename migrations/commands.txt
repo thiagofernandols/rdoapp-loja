@@ -1,0 +1,4 @@
+php yii migrate/create drop_data_cadastro_column_from_cliente_table --fields="data_cadastro:timestamp"
+php yii migrate/create add_position_column_to_cliente_table --fields="data_criacao:timestamp with time zone NOT NULL"
+php yii migrate/create drop_data_cadastro_column_from_cliente_table --fields="estado:string,cidade:string"
+php yii migrate/create add_position_column_to_cliente_table --fields="id_estado:integer,id_cidade:integer"

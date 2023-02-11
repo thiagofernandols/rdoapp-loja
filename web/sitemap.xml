@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://loja.rdoapp.com.br/</loc>
+  <lastmod>2021-03-09T22:42:35+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://loja.rdoapp.com.br/funcionalidades</loc>
+  <lastmod>2021-03-09T22:42:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://loja.rdoapp.com.br/precos</loc>
+  <lastmod>2021-03-09T22:42:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://loja.rdoapp.com.br/downloads</loc>
+  <lastmod>2021-03-09T22:42:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://loja.rdoapp.com.br/faq</loc>
+  <lastmod>2021-03-09T22:42:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://loja.rdoapp.com.br/tutoriais</loc>
+  <lastmod>2021-03-09T22:42:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://loja.rdoapp.com.br/login</loc>
+  <lastmod>2021-03-09T22:42:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://loja.rdoapp.com.br/assets/images/downloads/81744c0c7c40d9592c9090fbf84c688d3412fc3c.pdf</loc>
+  <lastmod>2021-03-05T18:10:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://loja.rdoapp.com.br/assets/images/downloads/f1a69cd21caedab7dee3c32f25d24448c6a12d56.pdf</loc>
+  <lastmod>2021-03-05T18:10:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://loja.rdoapp.com.br/assets/images/downloads/673f6318e89db0ebe1bfa99fad85199933ff6a0e.pdf</loc>
+  <lastmod>2021-03-05T18:10:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

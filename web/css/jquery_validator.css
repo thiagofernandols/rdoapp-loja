@@ -1,0 +1,144 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+/*CSS de validação*/
+.inputContainer{position:relative;float:left;}
+ .ajaxSubmit{padding:20px;background:#55ea55;border:1px solid #999;display:none;}
+ .formError{position:absolute;top:300px;left:300px;display:block;z-index:5000;cursor:pointer;}
+ .formError .formErrorContent{width:100%;max-width:180px;background:#ee0101;position:relative;z-index:5001;color:#fff;font-family:tahoma;font-size:11px;border:2px solid #ddd;box-shadow:0 0 6px #000;padding:4px 10px 4px 10px;border-radius:6px;}
+ .formError .formErrorArrow{width:15px;position:absolute;z-index:5006;left:15px;bottom:-8px;}
+ .formError .formErrorArrow div{box-shadow:0 2px 3px #444;font-size:0px;height:1px;background:#ee0101;margin:0 auto;line-height:0;font-size:0;display:block;}
+ .formError .formErrorArrow .line10{width:9px;}
+ .formError .formErrorArrow .line9{width:7px;}
+ .formError .formErrorArrow .line8{width:11px;border-left:3px solid #ddd;border-right:3px solid #ddd;}
+ .formError .formErrorArrow .line7{width:9px;border-left:3px solid #ddd;border-right:3px solid #ddd;}
+ .formError .formErrorArrow .line6{width:7px;border-left:3px solid #ddd;border-right:3px solid #ddd;}
+ .formError .formErrorArrow .line5{width:5px;background-color:#ddd;}
+ .formError .formErrorArrow .line4{width:3px;background-color:#ddd;}
+ .formError .formErrorArrow .line3{width:1px;background-color:#ddd;}
+ .formError .formErrorArrow .line2{width:0px;}
+ .formError .formErrorArrow .line1{width:0px;}
+ .formError .formErrorArrowBottom{box-shadow:none;margin:0px 0 0 12px;top:7px;}
+ .formError .formErrorArrowBottom div{box-shadow:none;}
+ .formError .formErrorArrowBottom + .formErrorContent{margin-top:15px;}
+ .error-box{background-color:rgba(255,100,100,0.95);border-radius:6px;font-family:Arial, Verdana;font-size:12px;display:inline-block;color:#fff;padding:5px 15px;margin-bottom:5px;position:relative;}
+ .error-box td{vertical-align:top;padding-bottom:5px;}
+ .error-box.fixed{position:fixed;left:50%;top:10px;width:320px;margin-left:-160px;z-index:9999;}
+ .error-box .error-cotent{left:5px;right:5px;top:30px;bottom:5px;overflow:auto;}
+ .error-box .error-title{font-size:16px;padding:2px 35px;font-weight:bold;color:#900;text-shadow:-1px 1px 0 rgba(255,255,255,0.3);}
+ .error-box .error-name{white-space:nowrap;padding-left:10px;padding-top:3px;padding-right:2px;color:#600;font-weight:bold;}
+ .error-box .error-item{background-color:#d33;color:#fff;padding:2px 5px;margin:1px;border-radius:3px;}
+ .error-box .error-close{position:absolute;right:5px;top:5px;font-size:10px;width:20px;height:20px;line-height:22px;background-color:#900;color:#fff;border-radius:100%;}
+ .error-box .error-close:before{content:'\274c';}

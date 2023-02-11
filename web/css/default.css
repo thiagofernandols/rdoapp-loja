@@ -1,0 +1,20 @@
+.cf:before, .cf:after{content: "";display: block;}
+.cf:after{clear: both;}
+.ta-c{text-align: center;}
+.ta-r{text-align: right;}
+.ta-l{text-align: left;}
+.va-t{vertical-align: top;}
+.va-m{vertical-align: middle;}
+.va-b{vertical-align: bottom;}
+.d-ib{display: inline-block;}
+.d-n{display: none;}
+.d-b{display: block;}
+.f-l{float:left;}
+.f-r{float:right;}
+
+.wrap{margin-left: auto;margin-right: auto;position: relative;}
+._s{text-indent: -9999px;text-align: left;display: inline-block;}
+._text{display: inline-block;}
+._submit{display: inline-block;}
+._back{display: inline-block;}
+._cancel{display: inline-block;}
